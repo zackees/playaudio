@@ -15,12 +15,25 @@ Uses the built in system commands to play audio.
 
 # Usage
 
+### Python
+
 ```python
 from playaudio import playaudio
 playaudio("my.mp3")  # blocks until sound is played.
 ```
 
-To develop software, run `. ./activate.sh`
+### Command line
+
+```bash
+> pip install playaudio
+> playaudio "my.mp3"
+```
+
+# Develop
+
+PR's are welcome!
+
+To develop software git clone the repo then run `. ./activate.sh`
 
 # Windows
 
