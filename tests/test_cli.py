@@ -8,9 +8,9 @@ import os
 class MainTester(unittest.TestCase):
     """Main tester class."""
 
-    def test_imports(self) -> None:
+    def test_playaudio(self) -> None:
         """Test command line interface (CLI)."""
-        rtn = os.system("playaudio --help")
+        rtn = os.system("playaudio")
         self.assertEqual(0, rtn)
 
 
