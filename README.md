@@ -2,7 +2,7 @@
 
 `pip install playaudio`
 
-No dependency, cross platform solution for playing a sound in MacOS/Windows/Linux. This repo was inspired by `playsound`, but this is much simpler, well tested, has less dependencies and not nearly as buggy.
+No dependency, cross platform solution for playing a sound in MacOS/Windows/Linux. This repo was inspired by [playsound](https://github.com/TaylorSMarks/playsound), but less buggy, *way* less dependencies, better tested and simpler.
 
 [![MacOS_Tests](../../actions/workflows/push_macos.yml/badge.svg)](../../actions/workflows/push_macos.yml)
 [![Ubuntu_Tests](../../actions/workflows/push_ubuntu.yml/badge.svg)](../../actions/workflows/push_ubuntu.yml)
