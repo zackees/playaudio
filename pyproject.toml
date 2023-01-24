@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "template-python-cmd"
-description = "Cross platform(ish) productivity commands written in python."
+name = "playaudio"
+description = "Plays audio files on Windows/MacOS/Linux"
 readme = "README.md"
 requires-python = ">=3.7"
-keywords = ["template-python-cmd"]
+keywords = ["playaudio", "audio", "sound"]
 license = { text = "BSD 3-Clause License" }
 classifiers = ["Programming Language :: Python :: 3"]
 dependencies = [
