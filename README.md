@@ -39,7 +39,7 @@ To develop software git clone the repo then run `. ./activate.sh`
 
 # Windows
 
-This environment requires you to use `git-bash`.
+This environment requires you to use `git-bash`. This library expects a sound card to be installed. If you are running on a server then you will need to install a virtual sound card. See [windows setup here](.github/workflows/push_win.yml).
 
 # Linting
 
