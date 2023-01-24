@@ -1,6 +1,8 @@
 # playaudio
 No dependency, cross platform solution for playing a sound in MacOS/Windows/Linux
 
+`pip install playaudio`
+
 [![MacOS_Tests](../../actions/workflows/push_macos.yml/badge.svg)](../../actions/workflows/push_macos.yml)
 [![Ubuntu_Tests](../../actions/workflows/push_ubuntu.yml/badge.svg)](../../actions/workflows/push_ubuntu.yml)
 [![Win_Tests](../../actions/workflows/push_win.yml/badge.svg)](../../actions/workflows/push_win.yml)
@@ -8,8 +10,6 @@ No dependency, cross platform solution for playing a sound in MacOS/Windows/Linu
 [![Linting](../../actions/workflows/lint.yml/badge.svg)](../../actions/workflows/lint.yml)
 
 ## Install
-
-`pip install playaudio`
 
 Uses the built in system commands to play audio.
 
