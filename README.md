@@ -44,3 +44,8 @@ This environment requires you to use `git-bash`. This library expects a sound ca
 # Linting
 
 Run `./lint.sh` to find linting errors using `pylint`, `flake8` and `mypy`.
+
+
+# Releases:
+  * 1.0.1: Fix readme
+  * 1.0.0: Initial release

@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "playaudio"
 description = "Plays audio files on Windows/MacOS/Linux"
-readme = "README.md"
 requires-python = ">=3.7"
 keywords = ["playaudio", "audio", "sound"]
 license = { text = "BSD 3-Clause License" }
@@ -16,7 +15,7 @@ dependencies = [
 ]
 # Change this with the version number bump.
 # Also make the change in zcmds/version.py
-version = "1.0.0"
+version = "1.0.1"
 
 [project.scripts]
 playaudio = "playaudio.cli:main"
