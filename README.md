@@ -28,6 +28,7 @@ playaudio("my.mp3")  # blocks until sound is played.
 ```bash
 > pip install playaudio
 > playaudio "my.mp3"
+> playaudio # plays an included bell.mp3 sound.
 ```
 
 # Develop
