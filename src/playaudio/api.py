@@ -3,6 +3,7 @@
 import os
 import sys
 from subprocess import call
+import warnings
 
 
 def playaudio(file: str) -> None:
@@ -15,6 +16,9 @@ def playaudio(file: str) -> None:
         else:
             assert False, f"Unsupported platform: {sys.platform}."
         return
-    import winsound  # type: ignore  # pylint: disable=all
+    try:
+        import winsound  # type: ignore  # pylint: disable=all
 
-    winsound.PlaySound(file, winsound.SND_FILENAME)
+        winsound.PlaySound(file, winsound.SND_FILENAME)
+    except Exception as exc:
+        warnings.warn(f"Cannot play audio because of {exc}.")
