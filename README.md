@@ -47,7 +47,8 @@ Run `./lint.sh` to find linting errors using `pylint`, `flake8` and `mypy`.
 
 
 # Releases:
-  * 1.0.3: Adds ignore_errors=True for playsound()
+  * 1.0.4: Windows: Supports playing mp3 files
+  * 1.0.3: Adds ignore_errors=True for playaudio()
   * 1.0.2: BELL_FILE -> BELL_MP3
   * 1.0.1: Fix readme
   * 1.0.0: Initial release
