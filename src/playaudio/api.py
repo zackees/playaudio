@@ -2,6 +2,7 @@
 
 import os
 import sys
+import time
 from subprocess import check_call
 import warnings
 
@@ -18,9 +19,14 @@ def playaudio(file: str, ignore_errors=True) -> None:
                 assert False, f"Unsupported platform: {sys.platform}."
             return
 
-        import winsound  # type: ignore  # pylint: disable=all
+        os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "1"
+        from pygame import mixer  # type: ignore  # pylint: disable=all
 
-        winsound.PlaySound(file, winsound.SND_FILENAME)
+        mixer.init()
+        mixer.music.load(file)
+        mixer.music.play()
+        while mixer.music.get_busy():
+            time.sleep(0.01)
     except Exception as exc:
         if ignore_errors:
             warnings.warn(f"Cannot play {file} because of {exc}.")
