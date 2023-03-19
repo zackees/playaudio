@@ -2,7 +2,7 @@
 
 `pip install playaudio`
 
-A no dependency, cross platform solution for playing a sound in MacOS/Windows/Linux.
+A cross platform solution for playing a sound in MacOS/Windows/Linux.
 
 [![MacOS_Tests](../../actions/workflows/push_macos.yml/badge.svg)](../../actions/workflows/push_macos.yml)
 [![Ubuntu_Tests](../../actions/workflows/push_ubuntu.yml/badge.svg)](../../actions/workflows/push_ubuntu.yml)
