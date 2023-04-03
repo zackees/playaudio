@@ -27,6 +27,7 @@ def playaudio(file: str, ignore_errors=True) -> None:
         mixer.music.play()
         while mixer.music.get_busy():
             time.sleep(0.01)
+        mixer.quit()
     except Exception as exc:
         if ignore_errors:
             warnings.warn(f"Cannot play {file} because of {exc}.")
